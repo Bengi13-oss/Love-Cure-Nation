@@ -82,6 +82,18 @@ section.activities{
   box-shadow: 0 20px 20px white;
   color:white;
 }
+@media (max-width: 1200px) {
+  .cards {
+    flex-direction: row;
+    justify-content: center;
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+   .card {
+    width: 45%;
+    max-width: none;
+   }
+}
 footer {
   background: #222;
   color: #ccc;
