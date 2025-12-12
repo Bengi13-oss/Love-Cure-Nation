@@ -72,6 +72,11 @@ section.activities{
     flex-direction: row;
     justify-content: center;
   }
+   .card {
+    width: 45%;
+    max-width: none;
+   }
+}
 .card{
   color:	Black;
   flex: 1;
