@@ -113,6 +113,9 @@ section.activities{
   box-shadow: 0 20px 20px white;
   color:white;
 }
+.main{
+  flex: 1;
+}
 footer {
   background: #222;
   color: #ccc;
