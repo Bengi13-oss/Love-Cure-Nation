@@ -137,7 +137,7 @@ section.activities{
    text-align: center;
    text-shadow: 10px 10px 10px Black;
    margin-top: 100px;
-   margin-bottom: 60px;
+   margin-bottom: 10px;
 }
  @media (max-width:1200px) {
    margin-left: 50px;
