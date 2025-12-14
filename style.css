@@ -117,7 +117,7 @@ section.activities{
    display: inline-block;
    font-size: 16px;
    cursor: pointer;
-   box-shadow: 10px 10px 10p white,
+   box-shadow: 10px 10px 10p #000000,
 }
  @media (max-width:1200px) {
    margin-left: 50px;
