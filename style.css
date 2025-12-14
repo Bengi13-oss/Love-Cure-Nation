@@ -110,14 +110,15 @@ section.activities{
    background-color: #693b1c;
    border: none;
    border-radius: 5px;
-   color: white;
+   color: black;
    padding: 15px 32px;
    text-align: center;
    text-decoration: none;
-   display: flex;
+   display: inline-block;
    font-size: 16px;
    cursor: pointer;
    box-shadow: 10px 10px 10p #000000;
+   transition: box-shadow 0.3s ease, transform 0.2s ease;
 }
 .btn:hover {
    transform: translateY(-5px);
