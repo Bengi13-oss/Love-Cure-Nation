@@ -47,10 +47,29 @@ body {
   padding-top: 60px;
   transition: right 0.3s ease;
 }
-.nav-links a{
-  text-decoration:none;
-  color:white;
-  font-size: 1rem;
+.nav-links.active {
+  right: 0;
+}
+.nav-links li {
+  list-style: none;
+  margin: 20px 0;
+}
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  width: 30px;
+  justify-content: space-between;
+  height: 21px;
+}
+.hamburger div {
+  height: 3px;
+  background-color: white;
 }
 .about {
   text-align: center;
