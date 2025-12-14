@@ -107,7 +107,7 @@ section.activities{
    margin-bottom: 200px;
    margin-top: 100px;
 }
-.btn {
+.} {
    background-color: #693b1c;
    border: none;
    border-radius: 5px;
@@ -131,6 +131,12 @@ section.activities{
    text-shadow: 10px 10px 10px Black;
    margin-top: 200px;
    margin-bottom: Opx;
+}
+.cta2 {
+   text-align:center;
+   text-shadow: 10px 10px 10px Black;
+   margin-top: 200px;
+   margin-bottom: 100px;
 }
  @media (max-width:1200px) {
    margin-left: 50px;
