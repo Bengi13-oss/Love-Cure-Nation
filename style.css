@@ -38,7 +38,38 @@ body {
 header {
   background: #693b1c;
 }
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #693b1c;
+  padding: 1rem;
+}
 
+.logo {
+  color: ;
+  font-weight: ;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.menu-toggle {
+  display: none;
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
 .about {
   text-align: center;
   Margin-top: 70px;
